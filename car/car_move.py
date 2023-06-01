@@ -66,6 +66,10 @@ class Car(object):
     def rightRear(self):
         self.setup()
         GPIO.output(self.RightBack_pin,GPIO.HIGH)
+
+#### 小车停
+    def self.stop():
+        self.setup()
         
 #### 定义main主函数
 def main(status):
